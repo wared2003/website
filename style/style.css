@@ -54,13 +54,19 @@ section{
 *{
     font-family: 'VT323', monospace;
 }
-p, h1, h2, h3{
+p, h1, h2, h3, a{
     font-family: 'VT323', monospace;
     color: white;
 }
 h2{
     font-size: 24px;
 }
+
+h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
 p{
     font-size: 16px;
 }
@@ -133,12 +139,15 @@ h1{
 }
 .card-section{
     margin-top: 50px;
+    padding-bottom: 100px;
 }
 h2{
     font-size: 42px;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-bottom: 16px;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 .card h3{
@@ -167,4 +176,49 @@ h2{
     justify-content: center;
     gap: 130px;
     flex-wrap: wrap;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.footerContact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footerContact a, .footerContact p {
+    font-size: 20px;
+}
+
+.footerContact, .footerLinks {
+    display: flex;
+    align-items: center;
+}
+
+.footerContact a, .footerContact p{
+    padding: 10px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #6914DB;
+}
+
+.footerLinks {
+    border-top: solid 1px gray;
+}
+.footerLinks img {
+    width: 150px;
+}
+
+.footerLinks a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 1px white;
 }
